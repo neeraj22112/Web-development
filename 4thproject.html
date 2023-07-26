@@ -7,7 +7,7 @@
     <style>
         :root{
             --bg:#87d8c2;
-            --green:#009900;
+            --green:#044a04;
             --red:#e70001;
             --seeds:#420200
         }
@@ -16,12 +16,13 @@
 }
 .watermelon{
     position:absolute;
-    height:500px; width: 500px;
+    height:500px; 
+    width: 500px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-   margin:auto;
+   margin: auto;
 }
 .cut1{
     position: absolute;
@@ -42,7 +43,7 @@
  top: -15%; 
  border-bottom: 60px solid var(--green);
  border-bottom-left-radius:100px;
- border-top-right-radius: 100px;
+ border-bottom-right-radius: 100px;
 }
 .seed1,.seed2,.seed3,.seed4,.seed5{
     height: 10px;
@@ -59,13 +60,13 @@
 }
 .seed2{
     position: absolute;
-    left: 50%;
-    top: 40%;
+    left: 45%;
+    top: 45%;
 }
 .seed3{
     position: absolute;
-    left: 45%;
-    top: 45%;
+    left: 40%;
+    top: 35%;
 }
 .seed4{
     position: absolute;
@@ -86,7 +87,8 @@
     border-radius: 50%;
     transform: rotate(-130deg);
     background-color: var(--green);
-    animation: slice 5s ease-in-out-infinite;
+    animation: slice 5s 
+    ease-in-out infinite;
 }
 .cut2::after{
  content:"";
@@ -96,7 +98,7 @@
  top: -15%; 
  border-bottom: 60px solid var(--green);
  border-bottom-left-radius:100px;
- border-top-right-radius: 100px;
+ border-bottom-right-radius: 100px;
 }
 @keyframes slice{
     from{

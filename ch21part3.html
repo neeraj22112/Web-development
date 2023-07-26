@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            margin: 2px;
+            padding: 2px;
+        }
+        #b1{
+            background-color: aqua;
+            border: 3px dotted black;
+            width: 50%;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+        #b2{
+            background-color: beige;
+            border: 3px groove red;
+            margin: 2px;
+            padding: 2px;
+        }
+        p{
+            border: 2px groove red;
+        }
+        @media (max-width:640px){
+            .container{
+                flex-direction:column;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="b1">
+            <p>Text1</p>
+            <p>Text2</p>
+        </div>
+
+
+        <div id="b2">
+            <img src="./luffy.jpg" alt="" width="300px" height="500px">
+        </div>
+    </div>
+</body>
+</html>
