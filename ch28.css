@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid ;
+}
+
+.box2{
+    transform: perspective(15px) translateZ(-10px);
+}
+.box3{
+    margin-left: 200px;
+    transform: rotatez(30deg);
+    /* transform: perspective(150px) scaleZ(2) rotateY(30deg) rotateX(45deg); */
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background-color: #74EBD5;
+            background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            height: 500px;
+            width: 350px;
+            background-color: rgb(15, 235, 66);
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+        }
+
+        .card img {
+            height: 35%;
+            width: 350px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+ }
+
+        .card h2 {
+            padding-right: 15px;
+            text-decoration: underline;
+            font-style: oblique;
+            text-shadow: 2px 2px 5px black;
+        }
+        .card p{
+            padding: 15px;
+        }
+        .box{
+            height: 35px;
+            width: 80%;
+            background-color: #85FFBD;
+            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+            box-shadow: 5px 5px 10px black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .box1{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between ;
+        }
+        .box1 img{
+            height: 100%;
+            width: 20%;
+            border-radius: 10px;
+        }
+        .box2{
+            height: 100%;
+            width: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .box a{
+            text-decoration: none;
+        }
+        .card:hover{
+            transform: scale(1.1);
+            transition: all 0.6s linear 0s;
+        }
+        button{
+            height: 30px;
+            width: 200px;
+            background-color: aqua;
+        }
+
+        .button:hover{
+            transform: scale(1.1);
+            transition: all 0.6s linear 0s;
+        }
+
+        .a1 a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./webDevelopment.jpg">
+            <br>
+            <h2>Full stack Web Development</h2>
+            <br>
+            <p>
+                Learn Full-Stack web-development with us. <br>
+                In this we will teach from the basic of web-development
+                (HTML,CSS,JAVA SCRIPT,SQL,DBMS).
+                <br> There is 24X7 customer support is available.
+            </p>
+            <div class="box">
+                <div class="box1">
+                    <img src="./video logo.jpg">
+                    <span>Anual Plan <br>
+                        ₹5000</span>
+                </div>
+                <div class="box2">
+                    <a href="Changeplan">Change Plan</a>
+                </div>
+            </div>
+            <br>
+            <div class="button">
+                <button>Proceed to payment</button>
+            </div>
+            <br>
+
+            <div class="a1">
+                <a href="">Cancle</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
